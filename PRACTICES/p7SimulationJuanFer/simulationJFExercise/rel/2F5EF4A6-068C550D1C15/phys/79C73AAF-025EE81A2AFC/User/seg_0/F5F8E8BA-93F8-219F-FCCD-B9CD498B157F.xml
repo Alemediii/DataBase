@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="UBD1318" directorySegmentName="seg_0" id="F5F8E8BA-93F8-219F-FCCD-B9CD498B157F">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjName>UBD1318</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+</UserOraclev10g>

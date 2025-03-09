@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0AA6693-BE55-FD4C-2FB1-D8F2F1E13FC2" name="IS MOTIVATED">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>38F97A5A-6245-AF3C-C009-F9E8AE6FD5A0</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STUDENT STUDENT ID" id="FA7B49AA-3D0F-4B3B-C943-9F9DD96F562C">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>B96BF8EB-0493-5D2D-6F2D-EEC48D1DA03B</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<referedAttribute>19684A38-18D4-CE82-E798-14B707222D35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MOTIVATION MOTIVATION ID" id="C239F860-5A75-0F37-D588-98939A9E2160">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>CADCF0BB-71AA-0E48-54DC-89FC07B58144</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<referedAttribute>A8EF53D3-1F3B-49AD-CC85-98437960EA37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6899E12-5ED7-FE6D-5039-B7349FE29AE1" name="IS MOTIVATED PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>0E550D14-EC1E-C591-150F-EDBFB0D38879</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA7B49AA-3D0F-4B3B-C943-9F9DD96F562C</attributeRef>
+<attributeRef>C239F860-5A75-0F37-D588-98939A9E2160</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

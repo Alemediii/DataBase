@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88912C78-7137-147B-7321-10EC93608FD2" name="RACE">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>6023F2BE-6292-F66E-7A7E-D599E3052A57</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FrontTyre" id="026675CF-B5DC-1F61-88FB-D91B4C1511EE">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>6B9AF303-1848-9844-FEDE-9796C3B69F31</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BackTyre" id="9728DC09-EB3B-4923-E8F6-D1A10F1DBDA0">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>3A7DD166-9338-89C0-0A2A-326E25938C31</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Crash" id="E3EA8613-BD5B-40E5-4EF8-A96FA10BC143">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>49A6ADC2-8F90-CD54-4352-86A48260AFE5</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Points" id="3CB2F4F7-4FD1-1827-E199-093AA5178DE3">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>271425EC-691B-FEE1-D5D6-4D133D5D81D3</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDERS_Nombre" id="BB99BDE1-7DFD-0624-6A03-1F0BC81C72ED">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>77E485FF-0CF9-8154-2EDA-FAD1CB0FFF84</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54757B2A-1648-016F-8BF5-07BB339F56C6" referredColumn="A7DE018C-A714-4F38-1C5A-4779C4A30A40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25BF07DF-FFEC-17E2-3D21-C857031F4139" name="RACE_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>3A60FDFD-2954-802B-FA0F-A7E4897ECE37</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB99BDE1-7DFD-0624-6A03-1F0BC81C72ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC727164-7FDD-5E32-8475-A42861D7BAE4" name="RACE_RIDERS_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>0FD46496-DF93-8EC0-DAC0-63D0F7A381DA</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB99BDE1-7DFD-0624-6A03-1F0BC81C72ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

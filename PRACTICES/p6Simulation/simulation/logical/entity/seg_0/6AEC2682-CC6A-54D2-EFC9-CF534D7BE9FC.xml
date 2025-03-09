@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6AEC2682-CC6A-54D2-EFC9-CF534D7BE9FC" name="HOBBY">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>A99F1F55-8E45-5C96-6FA9-57422308FBCC</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HOBBY ID" id="051A1214-0C03-72EF-0D38-3CC94C01D3F1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>485CC277-8C51-2FE8-62F9-6B494FB0D862</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="1DD39D30-DF80-184F-A0A2-0F8487283F31">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>26DB30C4-7DC9-174D-CDBF-A7826CF59EB2</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADA5729B-7B2D-AA8A-C11D-E906F1DFF889" name="HOBBY PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>00D1F6F0-07EC-6A12-C9CB-7DA4E94D4D6B</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>051A1214-0C03-72EF-0D38-3CC94C01D3F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

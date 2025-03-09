@@ -1,0 +1,97 @@
+--1
+select p.nombre, p.apellido1, p.apellido2 from profesores p, departamentos d
+where p.departamento=d.codigo and upper(d.nombre) like '%LENGUAJES%'
+--2
+select distinct a.codigo Asignatura, a.nombre Nombre, nvl(to_char(a.practicos), 'No tiene')
+"Creditos Practicos"
+from asignaturas a join matricular m on (a.codigo=m.asignatura) join alumnos al on
+(m.alumno=al.dni)
+where al.nombre = 'Nicolas' and apellido1 = 'Bersabe' and apellido2 = 'Alba'
+--3 select p.nombre, p.apellido1, p.apellido2, trunc((sysdate-p.antiguedad)/7) "Antiguedad(en semanas)", next_day(sysdate-1, to_char(antiguedad, 'day')) "Dia se cumle un ciclo" from profesores p join departamentos d on(p.departamento=d.codigo) where d.nombre='Ingenieria de Comunicaciones'
+--4 select * from alumnos al join matricular m on(al.dni=m.alumno) join asignaturas a on(m.asignatura=a.codigo) where a.nombre='Bases de Datos' and m.calificacion in ('AP', 'NT', 'SB', 'MH')
+--5
+select p.id, p.nombre, p.apellido1, p.apellido2, a.codigo, a.nombre Asignatura from profesores p join impartir im on(p.id=im.profesor) join asignaturas a
+on(im.asignatura=a.codigo)
+--6
+select a1.nombre Nombre1, trunc(months_between(sysdate, a1.fecha_nacimiento)/12) Edad1, a2.nombre Nombre2, trunc(months_between(sysdate, a2.fecha_nacimiento)/12) Edad2
+from alumnos a1, alumnos a2
+where upper(a1.apellido1) = upper(a2.apellido1) and a1.dni < a2.dni
+--7
+select a1.apellido1 "Primer Apellido Alumno 1", a2.apellido1 "Primer Apellido Alumno 2" from alumnos a1, alumnos a2 where a1.dni < a2.dni and (to_char(a1.fecha_nacimiento,
+'YYYY') between 1995 and 1996)
+and (to_char(a2.fecha_nacimiento, 'YYYY') between 1995 and 1996)
+--8
+select p1.nombre, p1.apellido1, p1.apellido2, trunc((sysdate - p1.antiguedad)/365) Antiguedad1, p2.nombre, p2.apellido1, p2.apellido2, trunc((sysdate - p2.antiguedad)/365) Antiguedad2 from profesores p1, profesores p2 where p1.departamento = p2.departamento and p1.id < p2.id and trunc(abs(p1.antiguedad-p2.antiguedad)/365)<2
+ 
+--9
+select ella.nombre || ' ' || ella.apellido1 || ' ' || ella.apellido2 Ella, el.nombre || ' ' || el.apellido1 || ' ' || el.apellido2 El
+from alumnos ella join matricular m1 on(ella.dni=m1.alumno), alumnos el join matricular m2 on(el.dni = m2.alumno)
+where m1.asignatura=112 and m2.asignatura=112 and ella.genero='FEM' and el.genero='MASC'
+and to_char(ella.fecha_prim_matricula, 'WW')=to_char(el.fecha_prim_matricula, 'WW') and decode(m1.calificacion, 'MH', 10, 'SB', 9, 'NT', 8, 'Ap', 6, 'SP', 4, 0) > decode(m2.calificacion, 'MH', 10, 'SB', 9, 'NT', 8, 'Ap', 6, 'SP', 4, 0)
+--10
+select a1.nombre Asignatura1, a2.nombre Asignatura2, a3.nombre Asignatura3, a1.cod_materia "Codigo Materia"
+from asignaturas a1, asignaturas a2, asignaturas a3
+where a1.cod_materia=a2.cod_materia and a1.cod_materia=a3.cod_materia and a1.codigo<a2.codigo and a2.codigo<a3.codigo
+--11
+select a.nombre, a.apellido1, a.apellido2, asi.nombre Asignatura,
+decode (m.calificacion, 'MH', 'Matricula de Honor', 'SB', 'Sobresaliente', 'NT', 'Notable', 'AP',
+'Aprobado', 'SP', 'Suspenso', 'No presentado') Nota from alumnos a, asignaturas asi, matricular m
+where months_between(sysdate, a.fecha_nacimiento) > 12*22 and m.alumno=a.dni and m.asignatura=asi.codigo
+order by a.apellido1, a.apellido2, a.nombre
+--12
+select al.nombre, al.apellido1, al.apellido2
+from impartir i natural join matricular m join alumnos al on(m.alumno=al.dni) join profesores p on(i.profesor=p.id) where p.nombre='Enrique' and p.apellido1='Soler' order by al.apellido1, al.apellido2, al.nombre
+--13
+select al.nombre, al.apellido1, al.apellido2
+from impartir i natural join matricular m join alumnos al on(m.alumno=al.dni) join profesores p on(i.profesor=p.id) join departamentos d on(p.departamento=d.codigo)
+where d.nombre='Lenguajes y Ciencias de la Computacion' order by al.apellido1, al.apellido2, al.nombre
+--14
+select a.nombre ASIGNATURA, ma.nombre MATERIA, p.nombre || ' ' || p.apellido1 || ' ' || p.apellido2 PROFESOR, i.carga_creditos CREDITOS from asignaturas a join materias ma on(a.cod_materia=ma.codigo) join impartir i on(a.codigo=i.asignatura) join profesores p on(i.profesor=p.id) where i.carga_creditos is not null order by ma.codigo, a.nombre desc
+--15
+select a.nombre ASIGNATURA, d.nombre DEPARTAMENTO, a.creditos CREDITOS, trunc((a.practicos/CREDITOS)*100, 2) "PORCENTAJE CREDITOS PRACTICOS" from asignaturas a join departamentos d on(a.departamento=d.codigo) where a.creditos is not null and a.practicos is not null and a.teoricos is not null
+order by "PORCENTAJE CREDITOS PRACTICOS" desc
+--16
+--select codigo from asignaturas minus select asignatura from impartir
+--17
+--select email from profesores where email is not null
+--union all
+--select email from alumnos where email is not null
+--18
+(select upper(apellido1) from alumnos where apellido1 is not null union select upper(apellido2) from alumnos where apellido2 is not null) intersect (select upper(apellido1) from profesores where apellido1 is not null union select upper(apellido2) from profesores where apellido2 is not null)
+--19
+(select replace(upper(apellido1), 'LL', 'Y') from alumnos where upper(apellido1) like '%LL%') union
+(select replace(upper(apellido2), 'LL', 'Y') from alumnos where upper(apellido2) like '%LL%') union
+(select replace(upper(apellido1), 'LL', 'Y') from profesores where upper(apellido1) like
+'%LL%') union
+(select replace(upper(apellido2), 'LL', 'Y') from profesores where upper(apellido2) like '%LL%')
+--21
+--select asi.nombre, profesor
+--from asignaturas asi left outer join impartir i on asi.codigo=i.asignatura
+--where nvl(creditos, 0)<>nvl(practicos, 0)+nvl(practicos, 0)
+--22
+--select p1.nombre NombreP1, p1.apellido1 ApellidoP1, p1.apellido2 ApellidoP1_1,
+--p2.nombre NombreP2, p2.apellido1 ApellidoP2, p2.apellido2 ApellidoP2_2
+--from profesores p1 left outer join profesores p2
+--on p1.director_tesis = p2.id order by 2, 3, 1
+--23
+select 'El Director de ' || p1.nombre || ' ' || p1.apellido1 || ' ' || p1.apellido2
+|| 'es ' || p2.nombre || ' ' || p2.apellido1 || ' ' || p2.apellido2 TESIS, nvl(inn.tramos,0) TRAMOS from profesores p1 join profesores p2 on (p1.director_tesis=p2.id) left outer
+ 
+join investigadores inn on(p2.id=inn.id_profesor)
+--24 select a1.nombre, a1.apellido1, a1.apellido2, a2.nombre, a2.apellido1, a2.apellido2 from alumnos a1 left outer join alumnos a2 on(a1.fecha_prim_matricula=a2.fecha_prim_matricula and a1.dni<a2.dni) order by a1.apellido1, a1.apellido2, a1.nombre
+--25
+select a.nombre ASIGNATURA, i.curso, i.grupo, p.nombre || ' ' || p.apellido1 PROFESOR
+from asignaturas a left outer join impartir i on (a.codigo=i.asignatura) left outer join profesores p on(i.profesor=p.id) order by a.codigo
+--26
+--select nombre, id from profesores where id not in (select profesor from impartir)
+--27
+--select nombre, apellido1, apellido2 from alumnos
+--where rownum <=2 and upper(genero) like 'FEM%' and
+--dni in (select alumno from matricular where asignatura=115)
+--28
+--select * from profesores where id not in (select director_tesis from profesores where director_tesis is not null)
+--29
+select a.nombre, a.codigo from asignaturas a where exists (select * from asignaturas where nvl(creditos, 0)> nvl(a.creditos, 0) and nvl(curso, 0)> nvl(a.curso, 1))
+--30
+(select nombre, codigo from asignaturas) minus
+(select a.nombre, a.codigo from asignaturas a where exists (select * from asignaturas where nvl(creditos, 0)> nvl(a.creditos, 0) and nvl(curso, 0) = nvl(a.curso, 1)))

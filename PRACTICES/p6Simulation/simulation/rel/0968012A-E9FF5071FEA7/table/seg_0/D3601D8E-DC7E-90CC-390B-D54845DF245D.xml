@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3601D8E-DC7E-90CC-390B-D54845DF245D" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="STUDENT">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>STUDENT</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_ID" id="4D4E87FE-1C4D-4278-7440-3A214B2C7E01">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STUDENT_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8CEC8C3-50D9-EF39-29CD-376A2AB40645" referredColumn="4D4E87FE-1C4D-4278-7440-3A214B2C7E01"/>
+</associations>
+</Column>
+<Column name="NAME" id="9B10A074-7264-A5A0-95E1-31C271C868EF">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="3E40C74A-0FFE-D89B-A660-CD601141E3B7">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGE" id="19976DEA-DE8D-A9E9-285B-F2F99FB3D21B">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>AGE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_STUDENT_ID" id="2105D9E0-5709-3AC2-0D12-DC9A8A6F0F7C">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>STUDENT_STUDENT_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8CEC8C3-50D9-EF39-29CD-376A2AB40645" referredColumn="4D4E87FE-1C4D-4278-7440-3A214B2C7E01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA0AC3A7-6523-B012-6D71-261D32335AB4" name="STUDENT_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>STUDENT_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D4E87FE-1C4D-4278-7440-3A214B2C7E01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2405A974-4EE4-71AF-E3E8-995764EC2C36" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="STUDENT_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>STUDENT_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D4E87FE-1C4D-4278-7440-3A214B2C7E01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D37E95B8-979C-7179-0542-E7767AC21FA6" name="STUDENT_FK1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2105D9E0-5709-3AC2-0D12-DC9A8A6F0F7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

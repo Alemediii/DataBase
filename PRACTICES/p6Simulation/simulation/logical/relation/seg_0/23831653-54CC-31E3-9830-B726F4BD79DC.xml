@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CITY_COUNTRY_FK1" directorySegmentName="seg_0" id="23831653-54CC-31E3-9830-B726F4BD79DC">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>281CC5C4-D5E8-7A4E-4646-54EAFFB04CAE</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<sourcePk>49F02BBE-4228-7C17-BE76-CF282E33684B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>25998D90-0DED-27E2-9C53-22A6DB9B43E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE5E9806-E8A8-72AD-33A3-A61D41C6C3AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

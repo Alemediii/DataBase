@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BEC8D9C6-1174-2CC3-F534-2AF6BA3F1D2B" containerWithKeyObject="80E9AAAA-50B9-A367-0B66-B9C74EAFBE14" localFKIndex="BBBD38ED-580D-8791-C1CF-D161D51093A5" name="RESTAURANT_PLACE_FK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>RESTAURANT_PLACE_FK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<referredTableLongName>UBD1318.PLACE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA9A3916-6169-B050-CABB-BC2063A0E03D</referredTableID>
+<keyObject>6D4A89D8-82B5-FC75-5DCF-BF132E095134</keyObject>
+<referredKeyID>6D4A89D8-82B5-FC75-5DCF-BF132E095134</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

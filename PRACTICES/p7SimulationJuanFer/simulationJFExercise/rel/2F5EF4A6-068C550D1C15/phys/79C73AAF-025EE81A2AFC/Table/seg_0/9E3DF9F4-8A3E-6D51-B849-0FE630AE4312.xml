@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="OPINION" directorySegmentName="seg_0" id="9E3DF9F4-8A3E-6D51-B849-0FE630AE4312">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F6F938D-6D2D-5FDC-1CA2-0966E1570A70</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_EAT" id="1B35978F-D537-3E87-C7F8-0FCE38B8D1C0">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLACE_CODE2" id="1C55A8E2-563F-0EC9-C9BF-1CEADD5ABD0A">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OWNER_EMAIL2" id="2C558E09-A8C0-93D5-3460-909B304D1442">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL1" id="2D22AEEC-2360-6406-166A-88C133D81153">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLACE_CODE" id="40E13F6F-8225-9BAB-3B50-FDDA7C595BD4">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPINION_OWNER_EMAIL2" id="4562F6C9-6745-FF6D-6D36-11FE8D859CC3">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPINION.DATE_EAT" id="548FFE17-A54B-1A7E-9DED-661F9801C053">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE1" id="67450A12-608F-3B8D-D648-CB7FB9DD2652">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADE" id="7822B1EE-1324-112D-441C-E61F3A5B7A91">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OWNER_EMAIL" id="8F8460D5-60F9-1569-5889-C2BD015EB0AB">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENT" id="B0864E83-2493-E3B4-D2A5-FB9DF0292873">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPINION_PLACE_CODE2" id="C0956524-F9AA-519E-2333-F4FFF8996FE9">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="OPINION_PK" id="C8EAEBE2-36BF-D707-6566-6DE34B6C93A1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OPINION_FK1" id="0D70272F-B116-AB08-FB6E-BF981B8033E1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OPINION_OWNER_FK2" id="59200C04-5E98-ED06-4CF8-8063925829A0">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OPINION_OWNER_FKv1" id="75BDAF19-E326-33E9-C443-EA443C5DB727">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OPINION_PLACE_FKv1" id="9312950B-C88A-6D70-3C5E-676C5102E9F6">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OPINION_OPINION_FK" id="BABAC761-AFA9-7602-7148-2812B8F3C1DF">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OPINION_OWNER_FK" id="CC0143E7-7270-2761-FB52-B4CEA5E894C8">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="OPINION_PLACE_FK" id="DF3CD280-7EE0-F8CD-43E5-8DF2A9CEB92D">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="OPINION_PK" id="E7490829-6490-6679-A5B3-EBBDE809B45C">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

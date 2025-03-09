@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1960B04F-1081-D9CA-52B5-0452F6F890B2" containerWithKeyObject="EA9A3916-6169-B050-CABB-BC2063A0E03D" localFKIndex="D411DD95-F032-C83C-E17E-5EDEEA83F38B" name="PLACE_OWNER_FK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLACE_OWNER_FK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<referredTableLongName>UBD1318.OWNER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C9B6522-926B-D7B7-82AF-6C2982990AB3</referredTableID>
+<keyObject>4412BC43-6715-7577-58C7-AB317EF10C60</keyObject>
+<referredKeyID>4412BC43-6715-7577-58C7-AB317EF10C60</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMAIL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

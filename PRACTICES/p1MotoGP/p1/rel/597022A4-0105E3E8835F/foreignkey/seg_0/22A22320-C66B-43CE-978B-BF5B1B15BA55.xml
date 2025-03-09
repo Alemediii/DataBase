@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22A22320-C66B-43CE-978B-BF5B1B15BA55" containerWithKeyObject="618BD938-BB3A-9F4C-2A92-12411CBA9D1D" localFKIndex="CBE09126-2F54-6405-8C15-B1FBADC6C833" name="ZONA_TIME_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>59452850-CA98-A5CA-2F34-1F73A6EFB4CD</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<referredTableLongName>TIME</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73D64E39-3CD1-AD6C-4308-448DEBCA46EF</referredTableID>
+<keyObject>D4043B07-3C1A-D0B4-5300-CF6252C017D2</keyObject>
+<referredKeyID>D4043B07-3C1A-D0B4-5300-CF6252C017D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Lap,RIDERS_Nombre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

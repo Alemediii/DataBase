@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84B5FDD7-F5C8-DE3A-270D-4F502DD83DC0" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="ERASMUS">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>ERASMUS</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:43 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_ID" id="9423C485-1A52-D3B9-BE56-9F4392C763E0">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>ERASMUS</sourceObjSchema>
+<sourceObjName>STUDENT_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6143B169-65B8-8A51-5D65-D7182E101594" referredColumn="4D4E87FE-1C4D-4278-7440-3A214B2C7E01"/>
+</associations>
+</Column>
+<Column name="CITY_CITY_ID" id="D97A86B2-1386-48F9-17A7-1EBF6AE4C9A2">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>ERASMUS</sourceObjSchema>
+<sourceObjName>CITY_CITY_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="762AB28B-847A-0BA8-350E-0633F01F25D9" referredColumn="31FFEDF6-0988-F991-0F04-26398A085EC7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F26D69BB-2715-B16D-A02E-71CB2D47D2D6" name="ERASMUS_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>ERASMUS_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9423C485-1A52-D3B9-BE56-9F4392C763E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4552F0CD-6CF6-0594-789B-90AD13FABFAD" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="ERASMUS_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>ERASMUS_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9423C485-1A52-D3B9-BE56-9F4392C763E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE3769E9-C90E-C0D0-FC34-93BF1DAD2A19" name="ERASMUS_CITY_FK1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D97A86B2-1386-48F9-17A7-1EBF6AE4C9A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCE70521-FAD3-AF31-8DFA-031672F32B92" name="ERASMUS_STUDENT_FK2">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9423C485-1A52-D3B9-BE56-9F4392C763E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

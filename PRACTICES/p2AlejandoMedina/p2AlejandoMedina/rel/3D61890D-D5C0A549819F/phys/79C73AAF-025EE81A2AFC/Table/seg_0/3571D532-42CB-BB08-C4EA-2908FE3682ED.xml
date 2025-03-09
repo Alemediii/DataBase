@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SPECIE" directorySegmentName="seg_0" id="3571D532-42CB-BB08-C4EA-2908FE3682ED">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<schemaObject>94CB084F-EBDE-CC66-7B67-9069EAB4B0F6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B9D23D4A-E542-DDB6-354D-8E1421C284F5</segment>
+<tableSpace>1AE8D6B3-69BF-3374-2A5C-7C8BEB997F03</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="06F47120-7F78-4C05-7642-CD71F758CAB2">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AVERAGE_HEIGHT" id="147A4BDB-061E-3F59-1C33-A94F7C960044">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPE" id="5E6D059A-EE29-9661-A1EF-048982A36DBD">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AVERAGE_WEIGHT" id="DABB5FEB-4C7D-C915-4A8A-F91EEFCCD8C6">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIVES_IN" id="F34CD938-AC7E-AE5A-5935-CF29572CB93C">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0013186" id="231AB456-347D-9755-C3B1-7D08FF60CA3E">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SPECIE_PK" id="B776AC31-1EB3-75E8-A9A1-3617638D2E39">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<schemaObject>94CB084F-EBDE-CC66-7B67-9069EAB4B0F6</schemaObject>
+<segment>12DFBBDE-CE6D-8C11-13D7-D0E8919C0BF8</segment>
+<tableSpace>1AE8D6B3-69BF-3374-2A5C-7C8BEB997F03</tableSpace>
+<indexSegment>12DFBBDE-CE6D-8C11-13D7-D0E8919C0BF8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

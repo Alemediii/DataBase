@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A761FBD7-6783-4023-D2EE-5EA4F1FE471A" schemaObject="94CB084F-EBDE-CC66-7B67-9069EAB4B0F6" name="PLANET">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLANET</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8D2070FC-953F-F096-CC36-4BF1BF5D222B">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>PLANET</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="7274F417-87A8-87F8-43B7-A1E18823CA57">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>PLANET</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAMETER" id="1FE0D108-05E9-7184-A692-A1194C966C71">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>PLANET</sourceObjSchema>
+<sourceObjName>DIAMETER</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GALAXY" id="E0337C7D-415E-9D33-BB3F-143286E0187F">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>PLANET</sourceObjSchema>
+<sourceObjName>GALAXY</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A7E122C-22D2-E56B-D2B6-2E39149CF497" schemaObject="94CB084F-EBDE-CC66-7B67-9069EAB4B0F6" name="PLANET_PK">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>SYS_C0013184</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D2070FC-953F-F096-CC36-4BF1BF5D222B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

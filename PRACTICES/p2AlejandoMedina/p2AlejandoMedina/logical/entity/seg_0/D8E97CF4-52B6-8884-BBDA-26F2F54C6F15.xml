@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8E97CF4-52B6-8884-BBDA-26F2F54C6F15" name="INTELLIGENT">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>8F2110D6-7087-907F-8CBD-C36438B68E8B</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LANGUAGE" id="42167437-DEE9-7A1C-2262-2B87D72C01A1">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>8298B7DA-1E09-E63A-1FDE-01E694F68C27</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WRITING" id="3745BC6B-3DA5-A0FE-C2FC-78FF0E8383B8">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>5B68EC28-0004-AC16-A179-3C68A63DAEFF</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAINTING" id="AA63FB0E-15F7-9E8D-7E74-4EC0DC33A3CF">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>2729F597-B5C0-14A2-F378-8A0FA4643C0D</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOCIALIZING" id="DCE85A5B-2C4F-1871-BDC4-B5F9E16C9889">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>9986CEA0-712A-39D2-C4B5-52FDEE2AFEB2</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SPECIE" id="5843211C-4E01-C591-C2B9-1FB66BC2CE37">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>1FF96CDB-58B9-FEDA-BB52-B247AE0790CB</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMES FROM" id="E9C19B02-728B-804F-9A94-403E50CDCB05">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>950FD876-DEAD-5FC0-E15B-99CD482E731F</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>72B2212D-8B9F-FA9F-4150-83589C8B1F50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTROL" id="38713DC7-F68E-8881-5F59-5F317946EBDE">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>7A5DB835-FB62-E83A-8512-A0D4995A4E1E</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>769817B5-6E60-35DA-FF99-278E53967520</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E088434F-1251-9D2E-CFDA-72530D73F408" name="INTELLIGENT PK">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>A990BA1F-4C8E-4136-BADF-611E9F7DA63E</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42167437-DEE9-7A1C-2262-2B87D72C01A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

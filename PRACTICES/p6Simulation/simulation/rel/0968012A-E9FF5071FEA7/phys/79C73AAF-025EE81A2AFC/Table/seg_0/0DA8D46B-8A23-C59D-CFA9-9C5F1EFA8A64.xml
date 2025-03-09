@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MOTIVATION" directorySegmentName="seg_0" id="0DA8D46B-8A23-C59D-CFA9-9C5F1EFA8A64">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<schemaObject>5072A1C7-E7B2-9B0E-CA22-14733D89AE8C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4AC83450-8543-A740-5D6A-EB60799DC421</segment>
+<tableSpace>65C03547-7A9C-ABD0-4997-1841B44F9042</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="8285B44A-E2B7-08C8-DCA7-498779A31C4F">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOTIVATION_ID" id="BDC22DDF-198A-7C29-849E-0C67B72F73ED">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MOTIVATION_PK" id="333956FA-BA4C-4DC5-EC0C-DC9BE365D3DD">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<schemaObject>5072A1C7-E7B2-9B0E-CA22-14733D89AE8C</schemaObject>
+<segment>9943A1D0-EE36-2ACD-1956-93544F308CBF</segment>
+<tableSpace>65C03547-7A9C-ABD0-4997-1841B44F9042</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MOTIVATION_PK" id="388C2F7D-192D-8AE3-F7AA-F45ABBABFC6E">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<segment>9943A1D0-EE36-2ACD-1956-93544F308CBF</segment>
+<tableSpace>65C03547-7A9C-ABD0-4997-1841B44F9042</tableSpace>
+<existingIndex>333956FA-BA4C-4DC5-EC0C-DC9BE365D3DD</existingIndex>
+<indexSegment>9943A1D0-EE36-2ACD-1956-93544F308CBF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

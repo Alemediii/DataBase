@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="OWNER" directorySegmentName="seg_0" id="5C9B6522-926B-D7B7-82AF-6C2982990AB3">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F6F938D-6D2D-5FDC-1CA2-0966E1570A70</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="57E2EEF7-3665-6B4D-0286-C2F62743C729">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="7D27F196-821C-CF34-2286-C75C6C7F8765">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SURNAME" id="7DA7D41E-72B2-39BF-C545-88FB30567C3C">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="OWNER_PK" id="62D91BBD-04FA-C942-9739-D9A767D61F9C">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="OWNER_PK" id="4412BC43-6715-7577-58C7-AB317EF10C60">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<existingIndex>62D91BBD-04FA-C942-9739-D9A767D61F9C</existingIndex>
+<indexSegment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

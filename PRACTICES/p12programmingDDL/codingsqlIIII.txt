@@ -1,0 +1,93 @@
+select 'drop table ' || table_name || ' CASCADE CONSTRAINTS; ' from user_tables;
+
+drop table MYENROLL CASCADE CONSTRAINTS; 
+drop table MYSTUDENTS CASCADE CONSTRAINTS; 
+
+--EX1
+CREATE TABLE MYSTUDENTS (
+"DNI" NUMBER(9,0) PRIMARY KEY,
+"NAME" VARCHAR2(20 BYTE),
+"SURNAME1" VARCHAR2(20 BYTE),
+"SURNAME2" VARCHAR2(20 BYTE),
+"GENDER" VARCHAR2(4 BYTE),
+"EMAIL" VARCHAR2(40 BYTE),
+"BIRTHDATE" DATE,
+"ENROLMENT_DATE" DATE
+);
+
+--EX2
+insert into MYSTUDENTS (select DNI,
+NOMBRE,
+APELLIDO1,
+APELLIDO2,
+GENERO,
+DIRECCION,
+TELEFONO,
+EMAIL,
+FECHA_NACIMIENTO,
+FECHA_PRIM_MATRICULA from 
+docencia.alumnos where cpro in (select codigo from provincia where nombre like '%Málaga%'));
+
+--EX3
+update mystudents set name = upper(name), surname1 = upper(surname1), surname2 = upper(surname2);
+
+/*
+MISTAKE
+create table MYENROL as select * from docencia.enrol;
+
+drop table MYENROL CASCADE CONSTRAINTS;
+MISTAKE
+*/
+
+--EX4
+create table MYENROL as select * from docencia.matricular;
+
+--EX5
+delete from myenrol where alumno not in (select dni from mystudents);
+
+--EX6
+insert into myenrol(alumno, asignatura, grupo, curso) select alu.dni, 'A',  '23/24' 
+from mystudents alu left outer join myenrol m on(alu.dni = m.alumno) where
+(months_between(sysdate, alu.enrolment_date)/12)!=2 and (alu.dni) not in 
+(select alumno from myenrol where asignatura = 112 and calificacion in ('AP','NT','SB','MH'));
+
+--EX7
+update myenrol set calificacion = nvl(calificacion, 'np') where curso < '23/24';
+
+--EX8
+update myenrol set calificacion = 'ap' where (alumno, asignatura) in (select alumno,
+asignatura from myenrol where curso < '23/24' and calificacion in ('NP','SP') group by alumno, asignatura
+having count(asignatura)=1);
+
+--EX9
+insert into myenrol (alumno, asignatura, grupo, curso) select alu.dni, asig.codigo, 'A',
+'23/24' from mystudents alu, asignaturas asig where asig.curso = 3 and alu.dni not in 
+(select alumno from myenrol where curso < '23/24' and calificacion in ('NP','SP') group by
+alumno having count(asignatura) > 0) and (alu.dni, asig.codigo) not in (select alumno, asignatura from myenrol);
+
+--EX10
+delete from mystudents where (months_between(sysdate, birthdate)/12) > 25 and email is null;
+
+--EX11
+DELETE FROM mimatricular
+WHERE alumno IN (
+    SELECT alumno
+    FROM mimatricular
+    WHERE curso IN ('20/21', '21/22') 
+      AND calificacion IN ('NP', 'SP')
+      AND alumno IN (
+          SELECT alumno
+          FROM mimatricular
+          WHERE curso IN ('20/21', '21/22')
+          GROUP BY alumno
+          HAVING COUNT(DISTINCT asignatura) >= 3
+      )
+      AND alumno NOT IN (
+          SELECT alumno
+          FROM mimatricular
+          WHERE curso IN ('20/21', '21/22') 
+            AND calificacion IN ('AP', 'NT', 'SB', 'MH')
+          GROUP BY alumno
+          HAVING COUNT(asignatura) = 0
+      )
+);

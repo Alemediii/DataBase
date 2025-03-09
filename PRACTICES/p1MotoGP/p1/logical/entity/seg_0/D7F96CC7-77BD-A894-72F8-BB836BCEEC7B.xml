@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7F96CC7-77BD-A894-72F8-BB836BCEEC7B" name="TEAM">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:00:58 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TeamName" id="BD58B59B-3322-3ED5-A3D4-5EEBC642B789">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:01:40 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bike" id="411AB5C8-5CEE-47D5-36E7-9A192C651ECD">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:01:24 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Web" id="67B7C814-DEFB-DB3E-71E0-BDC38E7EDC65">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:02:00 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PostalAdress" id="426296A6-1872-2105-02D3-32E3275ADE45">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:02:17 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="99B12E74-C65D-BD1A-187F-330C85FFEC67">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:02:18 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Logo" id="123AB591-9B60-F888-6F91-1A6B97ED87B4">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:02:18 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Picture" id="3735B718-7803-3835-57DC-C2EEFED87F60">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:02:58 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="A92291C5-EB82-30F7-B713-911A67D3CD09">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 10:55:42 UTC</createdTime>
+<generatorID>E7DA83E8-1F65-B210-984C-11CA7D34F732</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<referedAttribute>026CFE73-79B7-33C8-D93D-355A8FB5A9EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A27E64F-F41A-70AA-8BEE-10BFA54B564D" name="TEAM PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:01:55 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD58B59B-3322-3ED5-A3D4-5EEBC642B789</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

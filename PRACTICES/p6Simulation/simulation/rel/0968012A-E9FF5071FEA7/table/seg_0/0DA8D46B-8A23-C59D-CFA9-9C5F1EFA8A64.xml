@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DA8D46B-8A23-C59D-CFA9-9C5F1EFA8A64" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="MOTIVATION">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>MOTIVATION</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MOTIVATION_ID" id="BDC22DDF-198A-7C29-849E-0C67B72F73ED">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>MOTIVATION</sourceObjSchema>
+<sourceObjName>MOTIVATION_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="8285B44A-E2B7-08C8-DCA7-498779A31C4F">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>MOTIVATION</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="388C2F7D-192D-8AE3-F7AA-F45ABBABFC6E" name="MOTIVATION_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>MOTIVATION_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDC22DDF-198A-7C29-849E-0C67B72F73ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="333956FA-BA4C-4DC5-EC0C-DC9BE365D3DD" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="MOTIVATION_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>MOTIVATION_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDC22DDF-198A-7C29-849E-0C67B72F73ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

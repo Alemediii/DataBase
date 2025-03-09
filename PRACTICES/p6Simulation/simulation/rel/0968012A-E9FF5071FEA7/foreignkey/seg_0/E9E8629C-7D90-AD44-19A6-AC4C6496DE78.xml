@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9E8629C-7D90-AD44-19A6-AC4C6496DE78" containerWithKeyObject="38F97A5A-6245-AF3C-C009-F9E8AE6FD5A0" localFKIndex="6D1BF083-A5B6-12E4-8C84-176B4280B915" name="IS_MOTIVATED_STUDENT_FK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>IS_MOTIVATED_STUDENT_FK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<referredTableLongName>SIM247WHEY.STUDENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3601D8E-DC7E-90CC-390B-D54845DF245D</referredTableID>
+<keyObject>FA0AC3A7-6523-B012-6D71-261D32335AB4</keyObject>
+<referredKeyID>FA0AC3A7-6523-B012-6D71-261D32335AB4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STUDENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73D64E39-3CD1-AD6C-4308-448DEBCA46EF" name="TIME">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>A6B28A12-75C1-B8C4-5613-A964DC24F663</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Lap" id="12D5842B-1C09-6786-E014-42C1770AA0CA">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>CAA3AFA7-AACD-7BA1-6466-5D1594EC3704</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="B3C8117C-9521-01E7-6B3F-848106D0EA10">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>B161917D-7C45-2CE5-0F56-C9259A5968CF</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RIDERS_Nombre" id="6582873A-B719-DA02-BE6B-ECDF05CA188B">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>0F1CAEED-D57B-B621-2CA7-6D58A48E6383</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08CA2811-0ED5-C844-D86D-29CC4999EF47" referredColumn="A7DE018C-A714-4F38-1C5A-4779C4A30A40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4043B07-3C1A-D0B4-5300-CF6252C017D2" name="TIME_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>EFEF7FB5-13AB-F7F5-9C39-94E42199BE7D</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12D5842B-1C09-6786-E014-42C1770AA0CA"/>
+<colUsage columnID="6582873A-B719-DA02-BE6B-ECDF05CA188B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF62412E-7CFF-8346-FFE3-B11552829C2B" name="TIME_RIDERS_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>0AEB7FA7-3156-C8FC-6B29-C6BCD9014BB5</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6582873A-B719-DA02-BE6B-ECDF05CA188B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

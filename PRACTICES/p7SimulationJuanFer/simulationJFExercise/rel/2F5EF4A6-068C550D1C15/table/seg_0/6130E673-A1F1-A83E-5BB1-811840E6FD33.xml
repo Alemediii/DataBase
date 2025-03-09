@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6130E673-A1F1-A83E-5BB1-811840E6FD33" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="OWNER_FK1">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OWNER_FK1</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OWNER_EMAIL" id="1F4CC505-15E5-979D-5BE8-DF12B52FF45D">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OWNER_FK1</sourceObjSchema>
+<sourceObjName>OWNER_EMAIL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFB628A3-3A2A-93E8-47A6-7A52026D893F" referredColumn="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</associations>
+</Column>
+<Column name="OWNER_EMAIL1" id="9E0ECB4A-475B-5F81-6E46-7F3EB959FAF2">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OWNER_FK1</sourceObjSchema>
+<sourceObjName>OWNER_EMAIL1</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7BBD491-A0A4-512E-0EBC-7DBBC85206C6" referredColumn="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DE013E8-03C0-78A4-7465-712BE32D301F" name="OWNER_FK1_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OWNER_FK1_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F4CC505-15E5-979D-5BE8-DF12B52FF45D"/>
+<colUsage columnID="9E0ECB4A-475B-5F81-6E46-7F3EB959FAF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12EBCA25-B9C7-51D2-FD32-085A908A7BDA" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="OWNER_FK1_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OWNER_FK1_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F4CC505-15E5-979D-5BE8-DF12B52FF45D"/>
+<colUsage columnID="9E0ECB4A-475B-5F81-6E46-7F3EB959FAF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04B819BE-6CCF-4DA8-9AB6-D92D9FA7E39E" name="OWNER_FK1_OWNER_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F4CC505-15E5-979D-5BE8-DF12B52FF45D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E842B341-E90F-F539-E741-7B28F7A6DAB3" name="OWNER_FK1_OWNER_FKV1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E0ECB4A-475B-5F81-6E46-7F3EB959FAF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6023F2BE-6292-F66E-7A7E-D599E3052A57" name="RACE">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:21:48 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FrontTyre" id="6B9AF303-1848-9844-FEDE-9796C3B69F31">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:23:59 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BackTyre" id="3A7DD166-9338-89C0-0A2A-326E25938C31">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:24:13 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Crash" id="49A6ADC2-8F90-CD54-4352-86A48260AFE5">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:24:17 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Points" id="271425EC-691B-FEE1-D5D6-4D133D5D81D3">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:24:46 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="77E485FF-0CF9-8154-2EDA-FAD1CB0FFF84">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 10:53:15 UTC</createdTime>
+<generatorID>0FD46496-DF93-8EC0-DAC0-63D0F7A381DA</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<referedAttribute>21FCE3D0-DC5D-C7F7-9944-67B13E5422C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A60FDFD-2954-802B-FA0F-A7E4897ECE37" name="RACE PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 10:53:15 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77E485FF-0CF9-8154-2EDA-FAD1CB0FFF84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

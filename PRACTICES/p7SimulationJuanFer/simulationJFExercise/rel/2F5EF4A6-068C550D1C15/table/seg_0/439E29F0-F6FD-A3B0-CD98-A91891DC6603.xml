@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="439E29F0-F6FD-A3B0-CD98-A91891DC6603" name="Relation_13">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OWNER_EMAIL" id="2FB74666-C885-2F2C-A662-7EF563A37AED">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C00236D6-6AB6-B752-DCAD-3A22592FA6B1" referredColumn="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</associations>
+</Column>
+<Column name="OWNER_EMAIL1" id="0535B934-8F4A-5243-5B00-DF2285334A4C">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81A686D1-7293-9BFE-EDAF-8BE12A907C2D" referredColumn="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="021EA7D4-1458-E533-EF18-BB5499F5BE3A" name="Relation_13_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB74666-C885-2F2C-A662-7EF563A37AED"/>
+<colUsage columnID="0535B934-8F4A-5243-5B00-DF2285334A4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EAF83EB-FB48-B4AF-D725-CA4A1A22684D" name="Relation_13_OWNER_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>138F5E50-563D-8E76-E1E3-29B27E805E79</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB74666-C885-2F2C-A662-7EF563A37AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D438839C-C0D8-354E-CBF2-101AA2AA7668" name="Relation_13_OWNER_FKv1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>138F5E50-563D-8E76-E1E3-29B27E805E79</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0535B934-8F4A-5243-5B00-DF2285334A4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

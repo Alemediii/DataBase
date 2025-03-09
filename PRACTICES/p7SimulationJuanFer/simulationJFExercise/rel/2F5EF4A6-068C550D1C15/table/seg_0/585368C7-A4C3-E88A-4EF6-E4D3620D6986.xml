@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="585368C7-A4C3-E88A-4EF6-E4D3620D6986" name="HOTEL">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>4590DF41-9890-BE49-CC26-6AD08AB97C5D</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="EF4F3138-9EC1-21E9-9330-7747A4AF5C0E">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>B5C4028A-35B5-CF64-DC79-856701B2171C</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="626DB619-B845-D007-1D25-CDCE4CA5409B" referredColumn="461F6A27-243D-A599-8E7E-56ACAF97D36B"/>
+</associations>
+</Column>
+<Column name="STARS" id="4291929C-10EC-EB63-79AF-7CE7B4744985">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>F61287D2-7A86-C310-2362-F416B868A0CC</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WIFI" id="0CCE8ADC-C2A5-D0CF-983B-DE39EAFBE50B">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>008C9B64-FA2D-5113-68BB-490D1A6FCA4A</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="050202B6-B678-37E5-06D5-F2176603E6B9" name="HOTEL_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>526E414F-4EEC-C0DB-9C48-189896E8C9CA</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF4F3138-9EC1-21E9-9330-7747A4AF5C0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="140EB56F-8ADE-FA1A-7C20-37C70A887FA5" name="HOTEL_PLACE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>C695E0D9-8220-D3D2-BFF8-8C9AB26500FA</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF4F3138-9EC1-21E9-9330-7747A4AF5C0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

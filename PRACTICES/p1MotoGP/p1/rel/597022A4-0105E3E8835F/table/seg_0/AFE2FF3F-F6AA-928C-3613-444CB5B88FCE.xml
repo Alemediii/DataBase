@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFE2FF3F-F6AA-928C-3613-444CB5B88FCE" name="OFFICIAL_TEAM">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>99C8F738-8431-3832-9558-DB9F33D521EF</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TeamName" id="909278E7-9C32-CA7E-113F-56E959B147B4">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>BD58B59B-3322-3ED5-A3D4-5EEBC642B789</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB9802E9-6B90-79C9-3D34-147471F80B5C" referredColumn="AFDCE431-FEF6-6E82-725C-FA510AC36C54"/>
+</associations>
+</Column>
+<Column name="Budget" id="8E34BFF0-3F97-1B7D-4EBB-3060DB01CAD1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>51C6C498-7EE2-253E-18F9-2A09E57B12DB</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CreationDate" id="837FA1CC-F04A-DEAF-87AE-727B5A54F668">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>AC0D68A5-DFD5-B8AD-CA83-982E76F05922</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ContactData" id="099E569F-01D3-1C6B-524B-E99C2029C4C7">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>25BE3776-7802-BF2D-36D0-5C7DBAFA8BE5</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HomeFactory" id="DBACC80A-A33E-2F6E-0E34-8CE34FA9FEFA">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>08325DF5-A75E-D123-8069-00158CC82986</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WebLink" id="A000CB0B-FC94-2532-8A56-0B6BC453AA52">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>11F1290B-7F45-6C63-0E92-0FEE0FEB4FAE</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A56D72FA-7E0E-6FA3-C01B-97B245F2C19C" name="OFFICIAL_TEAM_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>4A27E64F-F41A-70AA-8BEE-10BFA54B564D</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="909278E7-9C32-CA7E-113F-56E959B147B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD97D865-E13A-27F6-C1BD-70306BBEED71" name="OFFICIAL_TEAM_TEAM_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>CF4423C1-8377-DEA7-567E-1935D2C2351C</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="909278E7-9C32-CA7E-113F-56E959B147B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F2110D6-7087-907F-8CBD-C36438B68E8B" schemaObject="94CB084F-EBDE-CC66-7B67-9069EAB4B0F6" name="INTELLIGENT">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>INTELLIGENT</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LANGUAGE" id="8298B7DA-1E09-E63A-1FDE-01E694F68C27">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>INTELLIGENT</sourceObjSchema>
+<sourceObjName>LANGUAGE</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WRITING" id="5B68EC28-0004-AC16-A179-3C68A63DAEFF">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>INTELLIGENT</sourceObjSchema>
+<sourceObjName>WRITING</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAINTING" id="2729F597-B5C0-14A2-F378-8A0FA4643C0D">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>INTELLIGENT</sourceObjSchema>
+<sourceObjName>PAINTING</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOCIALIZING" id="9986CEA0-712A-39D2-C4B5-52FDEE2AFEB2">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>INTELLIGENT</sourceObjSchema>
+<sourceObjName>SOCIALIZING</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIE" id="1FF96CDB-58B9-FEDA-BB52-B247AE0790CB">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>INTELLIGENT</sourceObjSchema>
+<sourceObjName>SPECIE</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMES_FROM" id="43714126-8FB8-F08A-F1BA-DDBE6BAC9172">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>INTELLIGENT</sourceObjSchema>
+<sourceObjName>COMES_FROM</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="652D5D2A-E0BE-B48C-1A58-581E8671A54D" referredColumn="8D2070FC-953F-F096-CC36-4BF1BF5D222B"/>
+</associations>
+</Column>
+<Column name="CONTROL" id="D4EA5E4C-81A3-49D2-D743-574F85559BDA">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>INTELLIGENT</sourceObjSchema>
+<sourceObjName>CONTROL</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8C6C478-5BEA-567F-5F1A-F1C659A1E848" referredColumn="06F47120-7F78-4C05-7642-CD71F758CAB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A990BA1F-4C8E-4136-BADF-611E9F7DA63E" schemaObject="94CB084F-EBDE-CC66-7B67-9069EAB4B0F6" name="INTELLIGENT_PK">
+<sourceConnName>AlejandroMedinaDiaz</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>SYS_C0013187</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8298B7DA-1E09-E63A-1FDE-01E694F68C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22F42040-F6B9-5313-FFE8-B8DC9B7909F8" name="SYS_C0013188">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43714126-8FB8-F08A-F1BA-DDBE6BAC9172"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="713890AE-CD71-E569-D36B-63ED97FA095C" name="SYS_C0013189">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4EA5E4C-81A3-49D2-D743-574F85559BDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

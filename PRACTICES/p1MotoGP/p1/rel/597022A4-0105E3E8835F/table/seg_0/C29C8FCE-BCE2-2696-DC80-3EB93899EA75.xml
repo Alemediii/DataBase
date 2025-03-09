@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C29C8FCE-BCE2-2696-DC80-3EB93899EA75" name="Relation_17">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RIDERS_Nombre" id="71D19C93-266B-4A28-8BC8-D1CFEF63620F">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C139DC1-C617-5045-3C51-6AE938E27A18" referredColumn="A7DE018C-A714-4F38-1C5A-4779C4A30A40"/>
+</associations>
+</Column>
+<Column name="RIDERS_Nombre1" id="29698317-D2B7-E51E-1572-20D29C668FFE">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61DEE42A-C3D5-262A-BFF4-11BEFF61FCD5" referredColumn="A7DE018C-A714-4F38-1C5A-4779C4A30A40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6634D93-B7BF-0E66-C47C-496FD7C3F9D1" name="Relation_17_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71D19C93-266B-4A28-8BC8-D1CFEF63620F"/>
+<colUsage columnID="29698317-D2B7-E51E-1572-20D29C668FFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD973F7D-D570-9E39-2D9F-A79E4AB763F3" name="Relation_17_RIDERS_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>443E2793-9F40-695E-2F23-E165B33EF63C</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71D19C93-266B-4A28-8BC8-D1CFEF63620F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F62610B-9337-9DA7-C626-5A4FCDF91785" name="Relation_17_RIDERS_FKv1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>443E2793-9F40-695E-2F23-E165B33EF63C</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29698317-D2B7-E51E-1572-20D29C668FFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

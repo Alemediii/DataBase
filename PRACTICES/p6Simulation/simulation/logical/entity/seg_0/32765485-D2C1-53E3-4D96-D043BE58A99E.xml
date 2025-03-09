@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32765485-D2C1-53E3-4D96-D043BE58A99E" name="HASHOBBY">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>E619BB29-09DE-7FA9-57AF-D3164BF79176</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STUDENT STUDENT ID" id="9E404B36-1367-6B5E-494F-2C21D7E23D41">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>7F67D304-0093-EF95-BB2C-F58B15CD2F66</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<referedAttribute>19684A38-18D4-CE82-E798-14B707222D35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOBBY HOBBY ID" id="1C0CDF82-73E1-348F-16B2-ED5727838254">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>11A5BBBC-9041-8C55-8A8C-F2D6F516724E</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<referedAttribute>051A1214-0C03-72EF-0D38-3CC94C01D3F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0CEEACE-2095-31E9-A268-DC58FD71FCD1" name="HASHOBBY PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>9926F3E5-E0B7-29A7-D4AB-FEA393C4CF22</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E404B36-1367-6B5E-494F-2C21D7E23D41</attributeRef>
+<attributeRef>1C0CDF82-73E1-348F-16B2-ED5727838254</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

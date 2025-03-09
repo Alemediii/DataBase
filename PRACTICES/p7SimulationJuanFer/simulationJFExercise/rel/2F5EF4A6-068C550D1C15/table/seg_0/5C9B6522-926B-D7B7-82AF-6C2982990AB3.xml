@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C9B6522-926B-D7B7-82AF-6C2982990AB3" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="OWNER">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OWNER</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMAIL" id="7D27F196-821C-CF34-2286-C75C6C7F8765">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OWNER</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="57E2EEF7-3665-6B4D-0286-C2F62743C729">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OWNER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURNAME" id="7DA7D41E-72B2-39BF-C545-88FB30567C3C">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OWNER</sourceObjSchema>
+<sourceObjName>SURNAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4412BC43-6715-7577-58C7-AB317EF10C60" name="OWNER_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OWNER_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62D91BBD-04FA-C942-9739-D9A767D61F9C" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="OWNER_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OWNER_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA9A3916-6169-B050-CABB-BC2063A0E03D" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="PLACE">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLACE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="461F6A27-243D-A599-8E7E-56ACAF97D36B">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>PLACE</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="8AE58B83-C246-C0C2-37D0-7044AE28FD82">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>PLACE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNER_EMAIL" id="ABAA1FF5-FED4-BA83-1C3C-C819F9E15187">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>PLACE</sourceObjSchema>
+<sourceObjName>OWNER_EMAIL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1960B04F-1081-D9CA-52B5-0452F6F890B2" referredColumn="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</associations>
+</Column>
+<Column name="CITY" id="20A44337-5AA2-0C3F-A3D9-D5C3AB24AAEF">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>PLACE</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="73C31E89-EDE2-1873-3BAA-B85B2C34043A">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>PLACE</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVGSCORE" id="7D5FE0B5-5BD9-DFFF-2FBE-84A48D15D3ED">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>PLACE</sourceObjSchema>
+<sourceObjName>AVGSCORE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRESS" id="A7B912C6-D117-B014-938F-28570BF7A1EE">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>DE5782F9-993B-DD21-BC76-6758D1709FC2</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D4A89D8-82B5-FC75-5DCF-BF132E095134" name="PLACE_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLACE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="461F6A27-243D-A599-8E7E-56ACAF97D36B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAB9F0D8-DA9A-3AF5-12BA-B31433FFA91E" name="PLACE_OWNER_EMAIL_UN">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLACE_ADRESS_UN</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABAA1FF5-FED4-BA83-1C3C-C819F9E15187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8908BE22-75D0-F9D4-458F-CCFBAF7C69E3" name="PLACE_CITY_UN">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLACE_CITY_UN</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A44337-5AA2-0C3F-A3D9-D5C3AB24AAEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FA95010-31C5-2DF6-9999-4728BDB454E5" name="PLACE_ADRESS_UN">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>853F71B2-D267-B65B-9459-3D4E047F6E0C</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7B912C6-D117-B014-938F-28570BF7A1EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABDC5CE7-94BC-F48F-E4CE-C468E7ACC782" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="PLACE_ADRESS_UK2">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLACE_ADRESS_UK2</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABAA1FF5-FED4-BA83-1C3C-C819F9E15187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="369C0150-62E2-795F-C81E-378B36343F63" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="PLACE_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLACE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="461F6A27-243D-A599-8E7E-56ACAF97D36B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B487141-2AB9-84F9-A1B3-ED1C62F2FCE9" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="PLACE_UK1">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>PLACE_UK1</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A44337-5AA2-0C3F-A3D9-D5C3AB24AAEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D411DD95-F032-C83C-E17E-5EDEEA83F38B" name="PLACE_OWNER_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABAA1FF5-FED4-BA83-1C3C-C819F9E15187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

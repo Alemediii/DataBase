@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9719C98-A0A1-1071-67D8-4D7D0AC10BA7" name="TEAMSTAFF">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>41DEBE84-BF53-4C51-A701-4BE9B409E9A6</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7E4ECBF9-429C-C2E7-FA32-14BECBE070AD">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>026CFE73-79B7-33C8-D93D-355A8FB5A9EA</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PassportNumber" id="D7214C84-57F8-4030-6EB7-ED29C15DEFB3">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>042F6DAA-2E72-1C55-CBCB-FD7AE2DFABAE</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nationality" id="8580E3F6-AC8E-4205-C95D-981B36C3670D">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>C2B7C22E-DE47-29F7-D9B0-C2D8379DB32A</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="06148E3F-CEF4-BC51-9BEA-29358EE2B12A">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>F98AF6B0-B680-F5E8-0A78-242A79F24605</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateOfBirth" id="6AECF80C-12B2-569E-3D07-E96D65583D08">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>1EE2AC38-1A9F-3BBC-044B-A690F5FBF552</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEAM_TeamName" id="B9DAEF0A-7B2C-8449-9A4E-30091B02A0B5">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>C300B45D-4692-C9D6-A761-0F04A224C540</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="289F8D3F-7AEF-4B7A-8F1C-52DEC0D4918F" referredColumn="AFDCE431-FEF6-6E82-725C-FA510AC36C54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="297B90A8-4F12-E0BE-E005-5D44DD2B7612" name="TEAMSTAFF_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>CB978D81-BF53-2FE3-8AE7-201DB699270F</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E4ECBF9-429C-C2E7-FA32-14BECBE070AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCC9E324-65DC-FE64-1609-43FA77B33E22" name="TEAMSTAFF_PassportNumber_UN">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>3D09D03C-8C90-5AD7-30CD-7B8B13B884BB</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7214C84-57F8-4030-6EB7-ED29C15DEFB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2A7EBE8-3493-85B1-12A9-55D776AC1F84" name="TEAMSTAFF_Nationality_UN">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>796496D1-F4F8-441F-3350-A4620B62C0D5</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8580E3F6-AC8E-4205-C95D-981B36C3670D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE63658F-A1B8-2490-40A5-9472B5B2AFC5" name="TEAMSTAFF_TEAM_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>D6D60262-458B-C531-1E31-F1A3974BD8F2</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9DAEF0A-7B2C-8449-9A4E-30091B02A0B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

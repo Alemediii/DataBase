@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IS_MOTIVATED_MOTIVATION_FK" directorySegmentName="seg_0" id="CADCF0BB-71AA-0E48-54DC-89FC07B58144">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>8821697E-2BB6-A7EA-F299-977D7225BA50</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<sourcePk>017D1E85-5BE9-FB5F-7A6C-A3E8FF7C94B4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BBCC062A-7056-9892-8D07-0CDF50FB5231</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F0AA6693-BE55-FD4C-2FB1-D8F2F1E13FC2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

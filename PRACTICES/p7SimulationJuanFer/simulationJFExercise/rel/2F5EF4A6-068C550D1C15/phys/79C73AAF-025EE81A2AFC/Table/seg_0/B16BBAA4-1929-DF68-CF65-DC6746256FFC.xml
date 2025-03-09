@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="RESAURANT" directorySegmentName="seg_0" id="B16BBAA4-1929-DF68-CF65-DC6746256FFC">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F6F938D-6D2D-5FDC-1CA2-0966E1570A70</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TYPEOFFODD" id="6D96FB66-3464-2E88-5B34-B6080FD6BB9F">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RESAURANT_PK" id="D9F034A0-522B-C2A4-6A8E-34D1D2360726">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RESAURANT_PLACE_FK1" id="3A7375C6-2BF3-3C6B-9A61-3905E657312A">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESAURANT_PK" id="645C356E-D4F7-E49A-3B60-F6F7E834580E">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<existingIndex>D9F034A0-522B-C2A4-6A8E-34D1D2360726</existingIndex>
+<indexSegment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

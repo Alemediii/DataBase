@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1D1111C9-77BA-EEF6-9DD7-6770681A598B" containerWithKeyObject="FD66892C-7FA6-D4DC-883F-C248A93E37E7" localFKIndex="46AEC3FA-1116-50EF-C776-DDCBE56F18AE" name="CIRCUIT_ZONA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>E19D1CC1-4642-72E6-0782-C21058A542C9</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<referredTableLongName>ZONA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>618BD938-BB3A-9F4C-2A92-12411CBA9D1D</referredTableID>
+<keyObject>D87C44D2-127F-F1CB-34DD-B5ADFADB4789</keyObject>
+<referredKeyID>D87C44D2-127F-F1CB-34DD-B5ADFADB4789</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Zone,TIME_Lap,TIME_RIDERS_Nombre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ERASMUS_CITY_FK1" directorySegmentName="seg_0" id="DD7680A3-414F-55EA-F5D3-B9F7516BE625">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>762AB28B-847A-0BA8-350E-0633F01F25D9</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<sourcePk>E1DEB2F9-7E01-90F5-BD1E-A1DAAFF7C56A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DE5E9806-E8A8-72AD-33A3-A61D41C6C3AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2BBEB44-D91F-6FB6-F411-45C0AA645A82</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

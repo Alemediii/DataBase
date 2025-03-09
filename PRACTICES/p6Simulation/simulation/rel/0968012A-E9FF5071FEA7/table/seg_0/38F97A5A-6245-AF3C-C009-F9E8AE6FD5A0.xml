@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38F97A5A-6245-AF3C-C009-F9E8AE6FD5A0" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="IS_MOTIVATED">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>IS_MOTIVATED</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STUDENT_STUDENT_ID" id="4EEC8C68-2035-D4CE-430C-092E22A7DA2A">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>IS_MOTIVATED</sourceObjSchema>
+<sourceObjName>STUDENT_STUDENT_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9E8629C-7D90-AD44-19A6-AC4C6496DE78" referredColumn="4D4E87FE-1C4D-4278-7440-3A214B2C7E01"/>
+</associations>
+</Column>
+<Column name="MOTIVATION_MOTIVATION_ID" id="5C2E65EA-69B3-E9F7-A31C-3BEDE707A307">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>IS_MOTIVATED</sourceObjSchema>
+<sourceObjName>MOTIVATION_MOTIVATION_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8821697E-2BB6-A7EA-F299-977D7225BA50" referredColumn="BDC22DDF-198A-7C29-849E-0C67B72F73ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E550D14-EC1E-C591-150F-EDBFB0D38879" name="IS_MOTIVATED_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>IS_MOTIVATED_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EEC8C68-2035-D4CE-430C-092E22A7DA2A"/>
+<colUsage columnID="5C2E65EA-69B3-E9F7-A31C-3BEDE707A307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F5714DE-7152-73B2-30A0-020FF46EB787" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="IS_MOTIVATED_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>IS_MOTIVATED_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EEC8C68-2035-D4CE-430C-092E22A7DA2A"/>
+<colUsage columnID="5C2E65EA-69B3-E9F7-A31C-3BEDE707A307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFE69F3C-9452-C216-3687-C90669CD7751" name="IS_MOTIVATED_MOTIVATION_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2E65EA-69B3-E9F7-A31C-3BEDE707A307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D1BF083-A5B6-12E4-8C84-176B4280B915" name="IS_MOTIVATED_STUDENT_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EEC8C68-2035-D4CE-430C-092E22A7DA2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

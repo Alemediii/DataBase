@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4590DF41-9890-BE49-CC26-6AD08AB97C5D" name="HOTEL">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:10:43 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<engineerTo>
+<item key="2F5EF4A6-8901-B22D-3F86-068C550D1C15" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6548CE87-C854-7003-BF2C-18FC16EEBFDB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STARS" id="F61287D2-7A86-C310-2362-F416B868A0CC">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:10:58 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<engineerTo>
+<item key="2F5EF4A6-8901-B22D-3F86-068C550D1C15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WIFI" id="008C9B64-FA2D-5113-68BB-490D1A6FCA4A">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:11:10 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<engineerTo>
+<item key="2F5EF4A6-8901-B22D-3F86-068C550D1C15" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

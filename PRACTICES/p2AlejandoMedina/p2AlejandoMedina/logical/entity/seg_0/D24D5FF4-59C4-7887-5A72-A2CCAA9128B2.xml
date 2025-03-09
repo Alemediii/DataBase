@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D24D5FF4-59C4-7887-5A72-A2CCAA9128B2" name="PLANET">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>A761FBD7-6783-4023-D2EE-5EA4F1FE471A</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="72B2212D-8B9F-FA9F-4150-83589C8B1F50">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>8D2070FC-953F-F096-CC36-4BF1BF5D222B</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="09648148-9243-39CA-C056-6E07D8C5EA48">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>7274F417-87A8-87F8-43B7-A1E18823CA57</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIAMETER" id="3E0090A2-D172-C5E9-5AC6-0D966F67E021">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>1FE0D108-05E9-7184-A692-A1194C966C71</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GALAXY" id="8E723F6A-B46D-3366-4094-9D567809D515">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>E0337C7D-415E-9D33-BB3F-143286E0187F</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="60416D7B-0CFC-93F3-691B-CE71FDDE70D4" name="PLANET PK">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:37:22 UTC</createdTime>
+<generatorID>0A7E122C-22D2-E56B-D2B6-2E39149CF497</generatorID>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<engineerTo>
+<item key="3D61890D-28CE-EC76-C06E-D5C0A549819F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72B2212D-8B9F-FA9F-4150-83589C8B1F50</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

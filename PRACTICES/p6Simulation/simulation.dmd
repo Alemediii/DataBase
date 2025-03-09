@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="simulation" id="2AA5DFAE-AD1C-39F4-DEC1-606DFBB9DBD0" version="3.5">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:58:27 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2AA5DFAE-AD1C-39F4-DEC1-606DFBB9DBD0</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="40EED3DE-8E28-354C-7C90-65D079F7ED62">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6D4EB3F5-2CD6-8A74-DA63-DC1EFBF90363">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D0AACAF4-FF5F-1377-A2B3-303AC034E158">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

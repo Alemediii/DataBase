@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="762AB28B-847A-0BA8-350E-0633F01F25D9" containerWithKeyObject="84B5FDD7-F5C8-DE3A-270D-4F502DD83DC0" localFKIndex="CE3769E9-C90E-C0D0-FC34-93BF1DAD2A19" name="ERASMUS_CITY_FK1">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>ERASMUS_CITY_FK1</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<referredTableLongName>SIM247WHEY.CITY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>077CF769-5675-A513-2E13-77103D972990</referredTableID>
+<keyObject>BEDAEA18-F619-0884-AAC4-26912D81A601</keyObject>
+<referredKeyID>BEDAEA18-F619-0884-AAC4-26912D81A601</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CITY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

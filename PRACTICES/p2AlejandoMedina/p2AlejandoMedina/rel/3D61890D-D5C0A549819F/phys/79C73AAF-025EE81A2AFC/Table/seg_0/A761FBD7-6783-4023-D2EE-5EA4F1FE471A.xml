@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PLANET" directorySegmentName="seg_0" id="A761FBD7-6783-4023-D2EE-5EA4F1FE471A">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<schemaObject>94CB084F-EBDE-CC66-7B67-9069EAB4B0F6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B9D23D4A-E542-DDB6-354D-8E1421C284F5</segment>
+<tableSpace>1AE8D6B3-69BF-3374-2A5C-7C8BEB997F03</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIAMETER" id="1FE0D108-05E9-7184-A692-A1194C966C71">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="7274F417-87A8-87F8-43B7-A1E18823CA57">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="8D2070FC-953F-F096-CC36-4BF1BF5D222B">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GALAXY" id="E0337C7D-415E-9D33-BB3F-143286E0187F">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLANET_PK" id="0A7E122C-22D2-E56B-D2B6-2E39149CF497">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<schemaObject>94CB084F-EBDE-CC66-7B67-9069EAB4B0F6</schemaObject>
+<segment>12DFBBDE-CE6D-8C11-13D7-D0E8919C0BF8</segment>
+<tableSpace>1AE8D6B3-69BF-3374-2A5C-7C8BEB997F03</tableSpace>
+<indexSegment>12DFBBDE-CE6D-8C11-13D7-D0E8919C0BF8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

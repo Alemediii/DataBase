@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="077CF769-5675-A513-2E13-77103D972990" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="CITY">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CITY_ID" id="31FFEDF6-0988-F991-0F04-26398A085EC7">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>CITY</sourceObjSchema>
+<sourceObjName>CITY_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY_NAME" id="6813285F-A3A2-44C9-0395-C6910E512CF5">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>CITY</sourceObjSchema>
+<sourceObjName>CITY_NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_COUNTRY_ID" id="CE31B9C7-70DB-8A05-9EE7-7EB4BAB37B7A">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>CITY</sourceObjSchema>
+<sourceObjName>COUNTRY_COUNTRY_ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="281CC5C4-D5E8-7A4E-4646-54EAFFB04CAE" referredColumn="213FC6C7-B012-432C-9C6C-D2C7D906416A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEDAEA18-F619-0884-AAC4-26912D81A601" name="CITY_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>CITY_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31FFEDF6-0988-F991-0F04-26398A085EC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF953248-B9AB-FB16-06BC-A02B47ECFC2D" schemaObject="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C" name="CITY_PK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>CITY_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31FFEDF6-0988-F991-0F04-26398A085EC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BCA03F3-173E-CD4B-CE5D-910EF6B3AE68" name="CITY_COUNTRY_FK1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE31B9C7-70DB-8A05-9EE7-7EB4BAB37B7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

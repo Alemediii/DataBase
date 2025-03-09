@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SIM247WHEY" directorySegmentName="seg_0" id="5072A1C7-E7B2-9B0E-CA22-14733D89AE8C">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:44 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<importedID>3C32790D-B750-40AC-A4E6-39F7ADD59A14</importedID>
+</SchemaObject>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SIM247WHEY" directorySegmentName="seg_0" id="15A4408F-A090-B8E3-48DE-0CE7FEFC464B">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjName>SIM247WHEY</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:43 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<schemaObject>5072A1C7-E7B2-9B0E-CA22-14733D89AE8C</schemaObject>
+<defTableSpace>65C03547-7A9C-ABD0-4997-1841B44F9042</defTableSpace>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="A59C202A-91E9-4C1F-FDA5-E7A65C54E405">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 11:02:43 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<size>10485760</size>
+<tableSpace>65C03547-7A9C-ABD0-4997-1841B44F9042</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

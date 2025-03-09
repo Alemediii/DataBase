@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C8B4A8C1-09CE-B69C-870C-B4C674B6977B" containerWithKeyObject="9E3DF9F4-8A3E-6D51-B849-0FE630AE4312" localFKIndex="0D70272F-B116-AB08-FB6E-BF981B8033E1" name="OPINION_FK1">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OPINION_FK1</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<referredTableLongName>UBD1318.PLACE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA9A3916-6169-B050-CABB-BC2063A0E03D</referredTableID>
+<keyObject>6D4A89D8-82B5-FC75-5DCF-BF132E095134</keyObject>
+<referredKeyID>6D4A89D8-82B5-FC75-5DCF-BF132E095134</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

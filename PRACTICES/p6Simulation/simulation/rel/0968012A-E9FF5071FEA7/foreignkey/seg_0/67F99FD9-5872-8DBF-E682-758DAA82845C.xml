@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67F99FD9-5872-8DBF-E682-758DAA82845C" containerWithKeyObject="E619BB29-09DE-7FA9-57AF-D3164BF79176" localFKIndex="6FE832FD-30BD-1F93-CB31-5E360505C7B9" name="HASHOBBY_HOBBY_FK">
+<sourceConnName>Simulation</sourceConnName>
+<sourceObjSchema>SIM247WHEY</sourceObjSchema>
+<sourceObjName>HASHOBBY_HOBBY_FK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:45 UTC</createdTime>
+<ownerDesignName>simulation</ownerDesignName>
+<referredTableLongName>SIM247WHEY.HOBBY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A99F1F55-8E45-5C96-6FA9-57422308FBCC</referredTableID>
+<keyObject>00D1F6F0-07EC-6A12-C9CB-7DA4E94D4D6B</keyObject>
+<referredKeyID>00D1F6F0-07EC-6A12-C9CB-7DA4E94D4D6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HOBBY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,57 @@
+//ex1
+db.restaurants.find()
+
+//ex2
+ db.restaurants.find({}, {restaurant_id:1, name:1, borough:1, cuisine:1})
+ 
+//ex3
+db.restaurants.find({}, {restaurant_id:0, name:1, borough:1, cuisine:1})
+MongoServerError[Location31253]: Cannot do inclusion on field name in exclusion projection
+ db.restaurants.find({}, {name:1, borough:1, cuisine:1})
+ 
+//ex4
+db.restaurants.find({}, {name:1, borough: "Bronx"})
+
+//ex5
+db.restaurants.find({}, {name:1, borough: "Bronx"}).limit(5)
+
+//ex6
+db.restaurants.find({ borough: "Bronx" }).skip(5).limit(5)
+
+//ex7
+db.restaurants.find({ "grades.score": { $gt: 90 } })
+
+//ex8
+db.restaurants.find({ "grades.score": { $gt: 80, $lt:100 } })
+
+//ex9
+db.restaurants.find({ "address.coord.0": { $lt: -95.754168 } })
+
+//ex10
+db.restaurants.find({
+  cuisine: { $ne: "American" }, // Excludes restaurants with 'American' cuisine
+  "grades.score": { $gt: 70 }, "address.coord.0": { $lt: -65.754168 }})
+
+//ex11
+db.restaurants.find({
+  cuisine: { $ne: "American" }, "grades.grade": "A", borough: { $ne: "Brooklyn" }     
+}).sort({ cuisine: -1 })              // Sort by cuisine in descending order
+
+//ex12 
+db.restaurants.find({
+  borough: "Bronx",                   // Match restaurants in the Bronx
+  cuisine: { $in: ["American", "Chinese"] } // Include either American or Chinese cuisine
+})
+
+//ex13
+//for sorting in ascending order we use 1
+db.restaurants.find({}).sort({ name: 1 })
+
+
+//ex14
+//for sorting in descending order we use -1
+db.restaurants.find({}).sort({ name: -1 })
+
+//ex15
+//it first sorts according to cuisine and then to borough
+db.restaurants.find({}).sort({ cuisine: 1, borough: -1 })

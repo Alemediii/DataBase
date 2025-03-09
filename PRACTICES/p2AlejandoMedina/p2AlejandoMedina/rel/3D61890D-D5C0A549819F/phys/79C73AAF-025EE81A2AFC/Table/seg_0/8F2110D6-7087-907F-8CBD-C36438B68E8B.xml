@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="INTELLIGENT" directorySegmentName="seg_0" id="8F2110D6-7087-907F-8CBD-C36438B68E8B">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<schemaObject>94CB084F-EBDE-CC66-7B67-9069EAB4B0F6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B9D23D4A-E542-DDB6-354D-8E1421C284F5</segment>
+<tableSpace>1AE8D6B3-69BF-3374-2A5C-7C8BEB997F03</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SPECIE" id="1FF96CDB-58B9-FEDA-BB52-B247AE0790CB">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAINTING" id="2729F597-B5C0-14A2-F378-8A0FA4643C0D">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMES_FROM" id="43714126-8FB8-F08A-F1BA-DDBE6BAC9172">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WRITING" id="5B68EC28-0004-AC16-A179-3C68A63DAEFF">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LANGUAGE" id="8298B7DA-1E09-E63A-1FDE-01E694F68C27">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOCIALIZING" id="9986CEA0-712A-39D2-C4B5-52FDEE2AFEB2">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTROL" id="D4EA5E4C-81A3-49D2-D743-574F85559BDA">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0013188" id="22F42040-F6B9-5313-FFE8-B8DC9B7909F8">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0013189" id="713890AE-CD71-E569-D36B-63ED97FA095C">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="INTELLIGENT_PK" id="A990BA1F-4C8E-4136-BADF-611E9F7DA63E">
+<createdBy>alumno</createdBy>
+<createdTime>2024-10-09 09:36:58 UTC</createdTime>
+<ownerDesignName>p2AlejandoMednia</ownerDesignName>
+<schemaObject>94CB084F-EBDE-CC66-7B67-9069EAB4B0F6</schemaObject>
+<segment>12DFBBDE-CE6D-8C11-13D7-D0E8919C0BF8</segment>
+<tableSpace>1AE8D6B3-69BF-3374-2A5C-7C8BEB997F03</tableSpace>
+<indexSegment>12DFBBDE-CE6D-8C11-13D7-D0E8919C0BF8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

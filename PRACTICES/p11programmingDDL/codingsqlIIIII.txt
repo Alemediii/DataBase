@@ -1,0 +1,64 @@
+--ex1
+CREATE TABLE TOUR AS SELECT * FROM DOCENCIA.TOUR2017;
+
+--ex2
+create table INFO_PERSONAL(
+ID NUMBER (3,0) PRIMARY KEY, 
+NOMBRE VARCHAR2 (50), NACIONALIDAD VARCHAR2(3));
+
+CREATE TABLE INFO_PROFESIONAL (
+ID NUMBER (3,0) PRIMARY KEY,
+EQUIPO VARCHAR(50), PAIS VARCHAR(30), CATEGORIA VARCHAR(20));
+
+insert into info_personal select id, name, nationality from tour;
+insert into info_profesional select id, team, country, category from tour; 
+
+--ex3
+create view tour_view as 
+select per.id, pro.equipo, pro.pais, per.nombre, per.nacionalidad, pro.categoria
+from info_personal per join info_profesional pro on(per.id = pro.id);
+
+--ex4
+create or replace trigger tr_insert_cyclist instead of insert on tour_view 
+for each row begin insert into info_personal values(:new.id, :new.nombre, :new.nacionalidad);
+
+insert into info_profesional values(:new.id, :new.equipo, :new.pais, :new.categoria);
+end tr_insert_cyclist;
+
+--ex5
+create table LOG_INSERCION(USUARIO VARCHAR2(12), FECHA DATE);
+
+create or replace trigger tr_log_insercion 
+after
+insert or delete or update
+on tour
+begin 
+insert into log_insercion values(user, sysdate);
+end tr_log_insercion;
+
+
+--EX6 
+CREATE VIEW TOUR_ITALY AS 
+SELECT * FROM TOUR WHERE UPPER(NATIONALITY)='ITA';
+
+CREATE VIEW TOUR_SPAIN AS 
+SELECT * FROM TOUR WHERE UPPER(NATIONALITY)='ESP';
+
+--EX7
+INSERT INTO TOUR_SPAIN VALUES(1, 'Team Cherry', 'Spain', 'Mateo Ramirez', 'Esp', 'WorldTour');
+
+--EX8
+INSERT INTO TOUR_SPAIN VALUES(1, 'Team Cherry', 'Spain', 'Mateo Ramirez', 'Ita', 'WorldTour');
+
+--EX9
+/*
+create view TOUR_SPAIN as select*from TOUR
+where UPPER(NATIONALITY) = 'ESP' WITH CHECK OPTION;
+create view TOUR_ITALY as select*from TOUR
+where UPPER(NATIONALITY) = 'ITA' WITH CHECK OPTION;
+*/
+
+--EX10
+create or replace view "UBD1318"."TOUR_SPAIN"("ID","TEAM","COUNTRY","NAME","NATIONALITY","CATEGORY") 
+AS
+select "ID","TEAM","COUNTRY","NAME","NATIONALITY","CATEGORY" FROM TOUR WHERE UPPER(NATIONALITY)='ESP';

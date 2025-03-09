@@ -1,0 +1,13 @@
+Metadata is defined as the data of some information
+
+To give an example, it can be, for instance, whenever we take a photo:
+- Exact hour
+- Camera used
+- Orientation
+- Dimensions of the photo
+
+There is a difference between raw data and metadata
+One complements the other, the first one provides actual attributes of the information
+Metadata is a way to transform the data in a way that it can be interpreted and considered to manipulate it
+
+Also, we can find active [describes data, as well as the information that can be provided] and passive [gotten by us] data

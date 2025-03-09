@@ -1,0 +1,307 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E3DF9F4-8A3E-6D51-B849-0FE630AE4312" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="OPINION">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OPINION</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATE_EAT" id="1B35978F-D537-3E87-C7F8-0FCE38B8D1C0">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OPINION</sourceObjSchema>
+<sourceObjName>DATE_EAT</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPINION.DATE_EAT" id="548FFE17-A54B-1A7E-9DED-661F9801C053">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OPINION</sourceObjSchema>
+<sourceObjName>OPINION.DATE_EAT</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8B4A8C1-09CE-B69C-870C-B4C674B6977B" referredColumn="461F6A27-243D-A599-8E7E-56ACAF97D36B"/>
+<colAssociation fkAssociation="24AB4D28-AAFB-CF19-2511-C4901C646920" referredColumn="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</associations>
+</Column>
+<Column name="GRADE" id="7822B1EE-1324-112D-441C-E61F3A5B7A91">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OPINION</sourceObjSchema>
+<sourceObjName>GRADE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLACE_CODE" id="40E13F6F-8225-9BAB-3B50-FDDA7C595BD4">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OPINION</sourceObjSchema>
+<sourceObjName>PLACE_CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE7E37C0-3A0C-DEF0-CC20-1840E8850F89" referredColumn="461F6A27-243D-A599-8E7E-56ACAF97D36B"/>
+</associations>
+</Column>
+<Column name="CODE1" id="67450A12-608F-3B8D-D648-CB7FB9DD2652">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OPINION</sourceObjSchema>
+<sourceObjName>CODE1</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNER_EMAIL" id="8F8460D5-60F9-1569-5889-C2BD015EB0AB">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OPINION</sourceObjSchema>
+<sourceObjName>OWNER_EMAIL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC157FB7-5B7E-C93D-ED71-236BAAC8ADCC" referredColumn="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</associations>
+</Column>
+<Column name="EMAIL1" id="2D22AEEC-2360-6406-166A-88C133D81153">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>OPINION</sourceObjSchema>
+<sourceObjName>EMAIL1</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLACE_CODE2" id="1C55A8E2-563F-0EC9-C9BF-1CEADD5ABD0A">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>1B68CD16-226E-C969-7877-9AC542E6648D</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33BECA82-8CEF-508E-854C-DD10D5EE7BCF" referredColumn="461F6A27-243D-A599-8E7E-56ACAF97D36B"/>
+</associations>
+</Column>
+<Column name="OWNER_EMAIL2" id="2C558E09-A8C0-93D5-3460-909B304D1442">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>F02D38D6-BCE5-566F-6D75-E55638DA6A09</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2588B7E5-895D-106C-D007-0751CEA2385B" referredColumn="7D27F196-821C-CF34-2286-C75C6C7F8765"/>
+</associations>
+</Column>
+<Column name="OPINION_PLACE_CODE2" id="C0956524-F9AA-519E-2333-F4FFF8996FE9">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>3B55718F-17F3-A329-FFEA-01A7A3DD15BB</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA04D1AE-ABAD-F67F-5116-2F907038AAF8" referredColumn="1C55A8E2-563F-0EC9-C9BF-1CEADD5ABD0A"/>
+</associations>
+</Column>
+<Column name="OPINION_OWNER_EMAIL2" id="4562F6C9-6745-FF6D-6D36-11FE8D859CC3">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>8AC8949E-09FE-8875-5273-A54619AD8EF0</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA04D1AE-ABAD-F67F-5116-2F907038AAF8" referredColumn="2C558E09-A8C0-93D5-3460-909B304D1442"/>
+</associations>
+</Column>
+<Column name="COMMENT" id="B0864E83-2493-E3B4-D2A5-FB9DF0292873">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>3DB7468B-C4D4-CF06-0CA0-65A6B1A19E54</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7490829-6490-6679-A5B3-EBBDE809B45C" name="OPINION_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>7C92484D-A3EC-4D79-0E2D-3C64B869DF46</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C55A8E2-563F-0EC9-C9BF-1CEADD5ABD0A"/>
+<colUsage columnID="2C558E09-A8C0-93D5-3460-909B304D1442"/>
+<colUsage columnID="1B35978F-D537-3E87-C7F8-0FCE38B8D1C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8EAEBE2-36BF-D707-6566-6DE34B6C93A1" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="OPINION_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>OPINION_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B35978F-D537-3E87-C7F8-0FCE38B8D1C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D70272F-B116-AB08-FB6E-BF981B8033E1" name="OPINION_FK1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="548FFE17-A54B-1A7E-9DED-661F9801C053"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC0143E7-7270-2761-FB52-B4CEA5E894C8" name="OPINION_OWNER_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F8460D5-60F9-1569-5889-C2BD015EB0AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59200C04-5E98-ED06-4CF8-8063925829A0" name="OPINION_OWNER_FK2">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="548FFE17-A54B-1A7E-9DED-661F9801C053"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF3CD280-7EE0-F8CD-43E5-8DF2A9CEB92D" name="OPINION_PLACE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40E13F6F-8225-9BAB-3B50-FDDA7C595BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75BDAF19-E326-33E9-C443-EA443C5DB727" name="OPINION_OWNER_FKv1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>FA2A35D9-BDA7-1B69-337C-525F15CDB39B</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C558E09-A8C0-93D5-3460-909B304D1442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9312950B-C88A-6D70-3C5E-676C5102E9F6" name="OPINION_PLACE_FKv1">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>8256C246-E774-BB8E-E200-BAD4F3897444</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C55A8E2-563F-0EC9-C9BF-1CEADD5ABD0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BABAC761-AFA9-7602-7148-2812B8F3C1DF" name="OPINION_OPINION_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>E926A156-E5DD-34C6-C43C-3EB6ABB809C6</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0956524-F9AA-519E-2333-F4FFF8996FE9"/>
+<colUsage columnID="4562F6C9-6745-FF6D-6D36-11FE8D859CC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

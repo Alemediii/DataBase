@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OPINION_OWNER" directorySegmentName="seg_0" id="FA2A35D9-BDA7-1B69-337C-525F15CDB39B">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:07:54 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<engineerTo>
+<item key="2F5EF4A6-8901-B22D-3F86-068C550D1C15" value="true"/>
+</engineerTo>
+<sourcePk>25DB46C2-82F1-DB81-46DF-C2D71C11E23A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>62835ACF-32F3-EABB-4699-E04A9C5DB578</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>98E8B412-516D-1524-45EE-68E567D2CA92</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

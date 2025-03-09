@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="RESTAURANT" directorySegmentName="seg_0" id="80E9AAAA-50B9-A367-0B66-B9C74EAFBE14">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2C1F374E-318E-2857-D826-6939097AE22A</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODE" id="6EF3E916-CCCC-12F4-AB7C-A3AF505DDD2A">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPEOFFOOD" id="87B796F1-6C0B-155D-5A27-5F4E455343C6">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RESTAURANT_PK" id="3591EF98-7E6D-F38F-3083-F77A1992C77F">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<segment>98BE3158-8690-A418-638B-E9DC4F1F885F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RESTAURANT_PLACE_FK" id="BBBD38ED-580D-8791-C1CF-D161D51093A5">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESTAURANT_PK" id="22625D42-5486-D993-4694-3F0D430ADDFF">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<segment>98BE3158-8690-A418-638B-E9DC4F1F885F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<existingIndex>3591EF98-7E6D-F38F-3083-F77A1992C77F</existingIndex>
+<indexSegment>98BE3158-8690-A418-638B-E9DC4F1F885F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

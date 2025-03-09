@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6B28A12-75C1-B8C4-5613-A964DC24F663" name="TIME">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:20:46 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Lap" id="CAA3AFA7-AACD-7BA1-6466-5D1594EC3704">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:20:54 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Time" id="B161917D-7C45-2CE5-0F56-C9259A5968CF">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:21:03 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="0F1CAEED-D57B-B621-2CA7-6D58A48E6383">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 10:52:26 UTC</createdTime>
+<generatorID>0AEB7FA7-3156-C8FC-6B29-C6BCD9014BB5</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<referedAttribute>21FCE3D0-DC5D-C7F7-9944-67B13E5422C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFEF7FB5-13AB-F7F5-9C39-94E42199BE7D" name="TIME PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 09:20:58 UTC</createdTime>
+<ownerDesignName>p1</ownerDesignName>
+<engineerTo>
+<item key="597022A4-2482-A45D-524C-0105E3E8835F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAA3AFA7-AACD-7BA1-6466-5D1594EC3704</attributeRef>
+<attributeRef>0F1CAEED-D57B-B621-2CA7-6D58A48E6383</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

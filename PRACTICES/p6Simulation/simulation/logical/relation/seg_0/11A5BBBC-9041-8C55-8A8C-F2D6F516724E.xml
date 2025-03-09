@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HASHOBBY_HOBBY_FK" directorySegmentName="seg_0" id="11A5BBBC-9041-8C55-8A8C-F2D6F516724E">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 10:59:52 UTC</createdTime>
+<generatorID>67F99FD9-5872-8DBF-E682-758DAA82845C</generatorID>
+<ownerDesignName>simulation</ownerDesignName>
+<engineerTo>
+<item key="0968012A-5C7E-958E-9722-E9FF5071FEA7" value="true"/>
+</engineerTo>
+<sourcePk>ADA5729B-7B2D-AA8A-C11D-E906F1DFF889</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6AEC2682-CC6A-54D2-EFC9-CF534D7BE9FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32765485-D2C1-53E3-4D96-D043BE58A99E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

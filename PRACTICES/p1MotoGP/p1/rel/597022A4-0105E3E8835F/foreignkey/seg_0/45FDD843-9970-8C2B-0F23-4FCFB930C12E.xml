@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="45FDD843-9970-8C2B-0F23-4FCFB930C12E" containerWithKeyObject="FD66892C-7FA6-D4DC-883F-C248A93E37E7" localFKIndex="31DB5943-6357-4C01-B7D9-AC812FBC9781" name="CIRCUIT_RACE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>B98CA1AD-6F8D-1D98-DD6F-F6646E9DD43A</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<referredTableLongName>RACE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88912C78-7137-147B-7321-10EC93608FD2</referredTableID>
+<keyObject>25BF07DF-FFEC-17E2-3D21-C857031F4139</keyObject>
+<referredKeyID>25BF07DF-FFEC-17E2-3D21-C857031F4139</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RIDERS_Nombre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

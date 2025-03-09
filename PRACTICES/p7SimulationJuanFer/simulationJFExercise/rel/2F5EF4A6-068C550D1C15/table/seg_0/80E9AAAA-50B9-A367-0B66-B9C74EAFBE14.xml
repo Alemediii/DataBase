@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80E9AAAA-50B9-A367-0B66-B9C74EAFBE14" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="RESTAURANT">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>RESTAURANT</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="6EF3E916-CCCC-12F4-AB7C-A3AF505DDD2A">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>RESTAURANT</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEC8D9C6-1174-2CC3-F534-2AF6BA3F1D2B" referredColumn="461F6A27-243D-A599-8E7E-56ACAF97D36B"/>
+</associations>
+</Column>
+<Column name="TYPEOFFOOD" id="87B796F1-6C0B-155D-5A27-5F4E455343C6">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>RESTAURANT</sourceObjSchema>
+<sourceObjName>TYPEOFFOOD</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22625D42-5486-D993-4694-3F0D430ADDFF" name="RESTAURANT_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>RESTAURANT_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF3E916-CCCC-12F4-AB7C-A3AF505DDD2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3591EF98-7E6D-F38F-3083-F77A1992C77F" schemaObject="0C7FAF6D-5211-A8C2-62DE-91920AD10CC2" name="RESTAURANT_PK">
+<sourceConnName>Medina</sourceConnName>
+<sourceObjSchema>UBD1318</sourceObjSchema>
+<sourceObjName>RESTAURANT_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF3E916-CCCC-12F4-AB7C-A3AF505DDD2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBBD38ED-580D-8791-C1CF-D161D51093A5" name="RESTAURANT_PLACE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF3E916-CCCC-12F4-AB7C-A3AF505DDD2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

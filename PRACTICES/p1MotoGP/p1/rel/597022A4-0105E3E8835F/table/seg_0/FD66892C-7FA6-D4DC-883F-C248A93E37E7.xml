@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD66892C-7FA6-D4DC-883F-C248A93E37E7" name="CIRCUIT">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>FB1BB4C8-28F7-D6EE-53FA-186167CBFC43</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CircuitName" id="2DB112A3-C13D-711F-ADB1-C483F3C64EA9">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>E00C0085-1AEF-BAAD-EC75-7A84BC74071C</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="E2654BF2-3221-8749-2B90-9529286C037F">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>C70E2C4E-CC2A-8F82-E1A4-19D7A4D98D95</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country" id="59EDEC11-7915-F56E-AB34-08CBB0B08619">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>620B63FB-4C22-0B43-13EE-81F80FFFA331</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="491D9152-AD11-E0FD-030C-56F3C82B58AB">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>C02E44B9-CF39-FDA5-2859-E5A48B90E19D</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LeftCurves" id="10E7212F-D32B-47A0-593C-1D119ADB664B">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>94CABF8D-C3A0-004F-4299-C3438B58E211</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RightCurves" id="6C27CF7B-08FE-F512-E3CB-4FC0D3E03676">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>C7CE1739-59D3-AED2-694C-1CDE30323519</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RACE_RIDERS_Nombre" id="928B1B56-8108-5676-8F6E-6BC62B9660AB">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>186A139F-C7C0-03CD-A308-0960405102C7</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45FDD843-9970-8C2B-0F23-4FCFB930C12E" referredColumn="BB99BDE1-7DFD-0624-6A03-1F0BC81C72ED"/>
+</associations>
+</Column>
+<Column name="ZONA_Zone" id="7E29E807-CC37-9C91-3700-64C3E34B3B5D">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>9688400E-7BFF-43FE-FA71-C378139DF51A</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D1111C9-77BA-EEF6-9DD7-6770681A598B" referredColumn="B805310F-5955-EF0F-8012-A884EC08F7C0"/>
+</associations>
+</Column>
+<Column name="ZONA_TIME_Lap" id="53578030-A1D2-1147-A15F-1A78931390E4">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>D2AA01AA-829E-3C4C-FF35-76C58A4C89C5</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D1111C9-77BA-EEF6-9DD7-6770681A598B" referredColumn="4F1EA85A-2533-8C82-B11A-DD2D43980FCD"/>
+</associations>
+</Column>
+<Column name="ZONA_TIME_RIDERS_Nombre" id="3ED4E529-4947-89E0-7A88-04862BE18CE8">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>13312F47-E4BC-826C-5661-933A146A095E</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D1111C9-77BA-EEF6-9DD7-6770681A598B" referredColumn="548503BA-9F51-C3AF-A25B-D64543B6E17F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FF4D284-165E-0905-033C-DAEFE98E07C5" name="CIRCUIT_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>B2A94BBD-5868-116B-D437-EFE2D3E37C0B</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DB112A3-C13D-711F-ADB1-C483F3C64EA9"/>
+<colUsage columnID="928B1B56-8108-5676-8F6E-6BC62B9660AB"/>
+<colUsage columnID="7E29E807-CC37-9C91-3700-64C3E34B3B5D"/>
+<colUsage columnID="53578030-A1D2-1147-A15F-1A78931390E4"/>
+<colUsage columnID="3ED4E529-4947-89E0-7A88-04862BE18CE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="158EA359-4DE9-CD90-F42D-6960D43A88CF" name="CIRCUIT_Date_UN">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:41 UTC</createdTime>
+<generatorID>239D8F76-0A8B-B88D-873B-1EA1C0588C02</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2654BF2-3221-8749-2B90-9529286C037F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31DB5943-6357-4C01-B7D9-AC812FBC9781" name="CIRCUIT_RACE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>B98CA1AD-6F8D-1D98-DD6F-F6646E9DD43A</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="928B1B56-8108-5676-8F6E-6BC62B9660AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46AEC3FA-1116-50EF-C776-DDCBE56F18AE" name="CIRCUIT_ZONA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-29 11:07:42 UTC</createdTime>
+<generatorID>E19D1CC1-4642-72E6-0782-C21058A542C9</generatorID>
+<ownerDesignName>p1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E29E807-CC37-9C91-3700-64C3E34B3B5D"/>
+<colUsage columnID="53578030-A1D2-1147-A15F-1A78931390E4"/>
+<colUsage columnID="3ED4E529-4947-89E0-7A88-04862BE18CE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

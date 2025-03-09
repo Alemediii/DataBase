@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA04D1AE-ABAD-F67F-5116-2F907038AAF8" containerWithKeyObject="9E3DF9F4-8A3E-6D51-B849-0FE630AE4312" localFKIndex="BABAC761-AFA9-7602-7148-2812B8F3C1DF" name="OPINION_OPINION_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<generatorID>E926A156-E5DD-34C6-C43C-3EB6ABB809C6</generatorID>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<referredTableLongName>UBD1318.OPINION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9E3DF9F4-8A3E-6D51-B849-0FE630AE4312</referredTableID>
+<keyObject>E7490829-6490-6679-A5B3-EBBDE809B45C</keyObject>
+<referredKeyID>E7490829-6490-6679-A5B3-EBBDE809B45C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PLACE_CODE2,OWNER_EMAIL2,DATE_EAT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

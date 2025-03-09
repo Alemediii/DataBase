@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PLACE" directorySegmentName="seg_0" id="EA9A3916-6169-B050-CABB-BC2063A0E03D">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F6F938D-6D2D-5FDC-1CA2-0966E1570A70</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CITY" id="20A44337-5AA2-0C3F-A3D9-D5C3AB24AAEF">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="461F6A27-243D-A599-8E7E-56ACAF97D36B">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="73C31E89-EDE2-1873-3BAA-B85B2C34043A">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AVGSCORE" id="7D5FE0B5-5BD9-DFFF-2FBE-84A48D15D3ED">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="8AE58B83-C246-C0C2-37D0-7044AE28FD82">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADRESS" id="A7B912C6-D117-B014-938F-28570BF7A1EE">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OWNER_EMAIL" id="ABAA1FF5-FED4-BA83-1C3C-C819F9E15187">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:04:59 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PLACE_PK" id="369C0150-62E2-795F-C81E-378B36343F63">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PLACE_UK1" id="8B487141-2AB9-84F9-A1B3-ED1C62F2FCE9">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PLACE_ADRESS_UK2" id="ABDC5CE7-94BC-F48F-E4CE-C468E7ACC782">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<schemaObject>0C7FAF6D-5211-A8C2-62DE-91920AD10CC2</schemaObject>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PLACE_OWNER_FK" id="D411DD95-F032-C83C-E17E-5EDEEA83F38B">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLACE_PK" id="6D4A89D8-82B5-FC75-5DCF-BF132E095134">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<existingIndex>369C0150-62E2-795F-C81E-378B36343F63</existingIndex>
+<indexSegment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PLACE_CITY_UN" id="8908BE22-75D0-F9D4-458F-CCFBAF7C69E3">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<existingIndex>8B487141-2AB9-84F9-A1B3-ED1C62F2FCE9</existingIndex>
+<indexSegment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PLACE_ADRESS_UN" id="8FA95010-31C5-2DF6-9999-4728BDB454E5">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:21:19 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PLACE_OWNER_EMAIL_UN" id="AAB9F0D8-DA9A-3AF5-12BA-B31433FFA91E">
+<createdBy>USER</createdBy>
+<createdTime>2024-10-31 17:05:00 UTC</createdTime>
+<ownerDesignName>simulationJFExercise</ownerDesignName>
+<segment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</segment>
+<tableSpace>319599CF-709D-A698-0BCC-044609A7D114</tableSpace>
+<existingIndex>ABDC5CE7-94BC-F48F-E4CE-C468E7ACC782</existingIndex>
+<indexSegment>2FD6C94B-CB4D-B43D-FED1-5F3C91424F2F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

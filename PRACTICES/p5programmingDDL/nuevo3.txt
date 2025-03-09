@@ -1,0 +1,27 @@
+select p.nombre, p.apellido1
+from profesores p join departamentos d on(d.codigo=p.departamento)
+where d.nombre like 'Lenguajes%';
+
+select a.nombre, a.codigo, 
+nvl(to_char(a.creditos), 'Undefined')
+from matricular m join alumnos al on (al.dni = m.alumno)
+join asignaturas a on(a.codigo = m.asignatura)
+where al.nombre = 'Nicolas' and al.apellido1 = 'Bersabe';
+
+select p.nombre, p.apellido1, 
+p.antiguedad, next_day(sysdate - 1, to_char(antiguedad, 'day'))
+from profesores p join departamentos d on(d.codigo=p.departamento)
+where d.nombre like 'Ingenieria de Comunicaciones';
+
+select al.nombre, al.apellido1
+from alumnos al join matricular m on(m.alumno=al.dni)
+join asignaturas a on(a.codigo=m.asignatura)
+where decode(calificacion, 'AP', 5, 'MH', 10, 'SB', 9, 'NT', 8, 'SP', 4, 'NP', 0, null, 0) > 5
+and a.nombre like 'Bases de Datos';
+
+
+select upper(a1.apellido1), upper(a2.apellido1)
+from alumnos a1 join alumnos a2 on (a1.dni < a2.dni)
+where upper(a1.apellido1) = upper(a2.apellido1);
+
+
